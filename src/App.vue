@@ -25,19 +25,16 @@
       </template>
     </ComTable>
 
-    <!-- <test :showFlag="false"></test> -->
   </div>
 </template>
 
 <script>
 import ComTable from "./components/table.vue";
-// import test from "./components/test.js";
 
 export default {
   name: "App",
   components: {
     ComTable
-    // test
   },
   data() {
     return {
